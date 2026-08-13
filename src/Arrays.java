@@ -35,7 +35,7 @@ public class Arrays {
         System.out.println(names.length);  // La longitud no se puede variar.
 
         // numbers[2] = null; Error
-        
+
         boolean[] booleans = new boolean[5];
         System.out.println(booleans[4]);
     }
