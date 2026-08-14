@@ -8,7 +8,7 @@ public class StructuresExercises {
 
         // 1. Crea un Array con 5 valores e imprime su longitud.
 
-        int [] numbers = new int[5];
+        int[] numbers = new int[5];
 
         numbers[0] = 1;
         numbers[1] = 2;
@@ -104,8 +104,7 @@ public class StructuresExercises {
         HashMap<String, String> countriesMap = new HashMap<>();
         for(String country : countriesSet) {
             countriesMap.put(country, country);
-
-            System.out.println("HashMap (clave = valor): " + countriesMap);
         }
+        System.out.println("HashMap (clave = valor): " + countriesMap);
     }
 }
